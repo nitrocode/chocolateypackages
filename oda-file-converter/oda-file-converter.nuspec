@@ -21,8 +21,8 @@ Upon execution, the application identifies all files in the specified source dir
 If the audit flag is enabled, an audit/repair operation will be applied to each file as it is loaded. If the recursive flag is enabled, subdirectories within the source directory will be processed recursively.
     </description>
     <projectUrl>https://www.opendesign.com/guestfiles/oda_file_converter</projectUrl>
-    <packageSourceUrl>https://raw.github.com/nitrocode/chocolateypackages</packageSourceUrl>
-    <iconUrl>https://raw.github.com/icon.png</iconUrl>
+    <packageSourceUrl>https://github.com/nitrocode/chocolateypackages</packageSourceUrl>
+    <iconUrl>https://raw.githubusercontent.com/nitrocode/chocolateypackages/master/oda-file-converter/oda.png</iconUrl>
     <tags>oda file convert converter cad freecad</tags>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <dependencies>
