@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package>
+  <metadata>
+    <id>oda-file-converter</id>
+    <title>ODA File Converter</title>
+    <version>19.8.0.0</version>
+    <authors>nitrocode</authors>
+    <summary>ODA File Converter</summary>
+    <description>
+ODA File Converter application features a graphical interface and a command-line interface, and accepts the following inputs:
+
+* Source directory
+* Target directory
+* Input file filter such as *.dwg (default is "*.dwg;*.dxf")
+* Output version/type
+* Recursive flag
+* Audit flag
+
+Upon execution, the application identifies all files in the specified source directory that match the specified filter, then loads and saves each of these files to the specified output directory as the specified output version/type.
+
+If the audit flag is enabled, an audit/repair operation will be applied to each file as it is loaded. If the recursive flag is enabled, subdirectories within the source directory will be processed recursively.
+    </description>
+    <projectUrl>https://www.opendesign.com/guestfiles/oda_file_converter</projectUrl>
+    <packageSourceUrl>https://raw.github.com/nitrocode/chocolateypackages</packageSourceUrl>
+    <iconUrl>https://raw.github.com/icon.png</iconUrl>
+    <tags>oda file convert converter cad freecad</tags>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <dependencies>
+        <dependency id="chocolatey-core.extension" version="[1.0,)" />
+    </dependencies>
+  </metadata>
+</package>
