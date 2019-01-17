@@ -4,7 +4,7 @@
     <id>oda-file-converter</id>
     <title>ODA File Converter</title>
     <version>19.12.0.0</version>
-    <authors>nitrocode</authors>
+    <authors>OpenDesign</authors>
     <summary>ODA File Converter</summary>
     <description>
 ODA File Converter application features a graphical interface and a command-line interface, and accepts the following inputs:
